@@ -1,0 +1,39 @@
+{
+  "name": "tg-eslint-shared-config",
+  "version": "0.0.1",
+  "description": "tg eslint shared config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todgru/tg-eslint-shared-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "prettier"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "todgru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todgru/tg-eslint-shared-config/issues"
+  },
+  "homepage": "https://github.com/todgru/tg-eslint-shared-config#readme",
+  "peerDependencies": {
+    "eslint": "5.10.0",
+    "prettier": "1.15.3"
+  },
+  "dependencies": {
+    "eslint": "5.10.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "6.0.1",
+    "prettier": "1.15.3"
+  }
+}
