@@ -1,5 +1,5 @@
 {
-  "name": "tg-eslint-shared-config",
+  "name": "eslint-config-tg",
   "version": "0.0.1",
   "description": "tg eslint shared config",
   "main": "index.js",

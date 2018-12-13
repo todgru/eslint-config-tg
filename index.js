@@ -1,6 +1,9 @@
 "use strict";
 
 module.exports = {
+  globals: {
+    MyGlobal: true
+  },
   env: {
     node: true,
     es6: true,
