@@ -42,8 +42,6 @@ module.exports = {
     "unicorn/prefer-starts-ends-with": ["warn"],
 
     "prettier/prettier": [ "error", { trailingComma: "es5", printWidth: 100 } ],
-    // "prettier/trailing-comma": "es5",
-    // "prettier/print-width": 100,
 
     "promise/catch-or-return": ["error"],
   },
