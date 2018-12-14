@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   extends: ["eslint:recommended", "plugin:prettier/recommended"],
-  plugins: ["promise", "unicorn"],
+  plugins: ["promise", "unicorn", "prettier"],
   rules: {
     "dot-notation": ["error"],
     eqeqeq: ["error", "smart"],
@@ -40,6 +40,9 @@ module.exports = {
     "unicorn/no-new-buffer": ["error"],
     "unicorn/no-hex-escape": ["error"],
     "unicorn/prefer-starts-ends-with": ["warn"],
+
+    "prettier/trailing-comma": "es5",
+    "prettier/print-width": 100,
 
     "promise/catch-or-return": ["error"],
   },
