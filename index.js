@@ -2,7 +2,7 @@
 
 module.exports = {
   globals: {
-    MyGlobal: true
+    MyGlobal: true,
   },
   env: {
     node: true,
@@ -41,7 +41,7 @@ module.exports = {
     "unicorn/no-hex-escape": ["error"],
     "unicorn/prefer-starts-ends-with": ["warn"],
 
-    "prettier/prettier": [ "error", { trailingComma: "es5", printWidth: 100 } ],
+    "prettier/prettier": ["error", { trailingComma: "es5", printWidth: 100 }],
 
     "promise/catch-or-return": ["error"],
   },
