@@ -41,7 +41,7 @@ module.exports = {
     "unicorn/no-hex-escape": ["error"],
     "unicorn/prefer-starts-ends-with": ["warn"],
 
-    "prettier/prettier": "error",
+    "prettier/prettier": [ "error", { trailingComma: "es5", printWidth: 100 } ],
     // "prettier/trailing-comma": "es5",
     // "prettier/print-width": 100,
 
