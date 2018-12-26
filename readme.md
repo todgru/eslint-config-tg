@@ -1,14 +1,13 @@
 # eslint-config-tg
 
-## Install
+## Usage
 
- ```
- npm i --save-dev eslint-config-tg
- ```
-
-Add `eslintConfig` to the root of your project `package.json`:
+Update `package.json`.
 
 ```
+"devDependencies": {
+  "eslint-config-tg": "git+ssh://git@github.com/todgru/eslint-config-tg.git"
+},
 "eslintConfig": {
   "extends": "eslint-config-tg"
 }
