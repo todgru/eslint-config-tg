@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tg eslint shared config",
   "main": "index.js",
   "scripts": {
@@ -25,18 +25,19 @@
   },
   "homepage": "https://github.com/todgru/eslint-config-tg#readme",
   "peerDependencies": {
-    "eslint": "5.10.0",
-    "prettier": "1.15.3"
+    "eslint": "6.5.1",
+    "prettier": "1.18.2"
   },
   "dependencies": {
-    "eslint": "5.10.0",
-    "eslint-config-prettier": "3.3.0",
-    "eslint-plugin-prettier": "3.0.0",
-    "eslint-plugin-promise": "4.0.1",
-    "eslint-plugin-unicorn": "6.0.1",
-    "prettier": "1.15.3"
+    "eslint": "6.5.1",
+    "eslint-config-prettier": "6.4.0",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-unicorn": "12.1.0",
+    "prettier": "1.18.2"
   },
-  "eslintConfig":{
+  "eslintConfig": {
     "env": {
       "node": true,
       "es6": true
@@ -44,8 +45,16 @@
     "parserOptions": {
       "ecmaVersion": 2018
     },
-    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
-    "plugins": ["promise", "unicorn", "prettier"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "html",
+      "promise",
+      "unicorn",
+      "prettier"
+    ],
     "rules": {
       "dot-notation": ["error"],
       "eqeqeq": ["error", "smart"],
