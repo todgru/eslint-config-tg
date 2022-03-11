@@ -12,3 +12,6 @@ Update `package.json`.
   "extends": "eslint-config-tg"
 }
 ```
+
+# @todo
+this might be a worthy replacement: https://github.com/xojs/xo
